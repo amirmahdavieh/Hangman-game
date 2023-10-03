@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import requests
 import numpy as np
 
-words_list = ['view', 'advocate', 'discard', 'confess', 'disarray', 'assume', 'concrete', 'contrast', 'offensive',
+# built-in words
+words_list = ['view', 'advocate', 'discard', 'confess', 'disarray', 'assume', 'concrete', 'contrast', 'offensive',        
               'buster', 'convey', 'compile', 'assert', 'appeal', 'pave', 'immersive', 'gadget', 'frame work',
               'firewall', 'embedded systems', 'consortium', 'authentication']
 
@@ -229,16 +230,16 @@ class HangmanGame:
                 failed_score = self.letter_detection(choice, failed_score)[1]
 
             if failed_score == 10:
-                print('YOU LOSE THE GAME:(')
+                print('YOU LOST THE GAME:(')
             else:
-                print('YOU WIN!!!')
+                print('YOU WON!!!')
 
             question = input('Want to play again?')
             self.word = random.choice(words_list)
             self.blanks = ''
             self.chosen_letters = []
 
-        print('Okay, have a nice day!')
+        print('Have a nice day!')
 
 
 game = HangmanGame()
