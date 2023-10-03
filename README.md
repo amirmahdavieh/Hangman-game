@@ -20,7 +20,7 @@ Make sure you have the following dependencies installed:
 2. Run the script:
 
    ```bash
-   python hangman_game.py
+   python hangman.py
    ```
 
 3. Follow the on-screen instructions to guess the letters and complete the word. You have up to 10 attempts before the Hangman is complete.
