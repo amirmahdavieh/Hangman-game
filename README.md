@@ -15,7 +15,6 @@ Make sure you have the following dependencies installed:
 
    ```bash
    git clone https://github.com/amirmahdavieh/Hangman-game.git
-   cd your-repository
    ```
 
 2. Run the script:
